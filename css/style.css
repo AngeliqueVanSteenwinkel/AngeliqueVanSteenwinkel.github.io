@@ -1,0 +1,547 @@
+body
+{
+	font-family:'Times New Roman';
+    background-color: #328470;
+    color: white;
+}
+header
+{
+	background-color: #67c6af;
+	width: 100%;
+    height: 210px;
+}
+header img
+{
+	display: block;
+	height: 80px;
+	width: auto;
+	margin-left: 7px;
+	margin-right: 50px;
+	float: left;
+}
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active
+{
+	text-decoration: none;
+	font-size: 18px;
+	color: #E2DFDF;
+	text-align: center;
+	display:block;
+	background-color: #328470;
+	margin-bottom: 2px;
+    padding: 2px 4px;
+	clear:both;
+    font-family: 'Lato', sans-serif;
+}
+nav a:hover
+{
+	background-color: #286c5b;
+}
+nav a:active
+{
+	background-color: #1f5346;
+}
+#content
+{
+    clear: both;
+    font-family: 'Raleway', sans-serif;
+	padding-left: 7px;
+	padding-top: 15px;
+	width: 97.2%;
+	font-size: 15px;
+}
+#content h1
+{
+    font-size: 25px;
+	color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+#form span
+{
+    color: red;
+}
+#content p
+{
+    line-height: 30px;
+    padding-bottom: 2px;
+}
+#contactTekst p
+{
+    white-space: pre-line;
+}
+#contactTekst span
+{
+    padding-top: 20px;
+    color: #fff;
+}
+.homeFoto
+{
+    width: 100%;
+}
+#callToAction a
+{
+    text-decoration: none;
+    color: #1E2223;
+    font-size: 25px;
+    background-color: #67c6af;
+    margin-bottom: 13px;
+    margin-left: 15%;
+    padding: 1%;
+    border: 3px solid #4ebda2;
+}
+#callToAction
+{
+    margin-top: 10px;
+}
+.home
+{
+	padding-bottom: 70px;
+}
+.about
+{
+	padding-bottom: 40px;
+}
+.cv
+{
+	padding-bottom: 70px;
+}
+.portfolio
+{
+    padding-bottom: 20px;
+}
+.portfolio img
+{
+    float: left;
+    height: 90px;
+    width: 130px;
+}
+.clear
+{
+    clear: both;
+}
+.portfolio-grafisch 
+{
+	padding-bottom: 1000px;
+}
+.portfolio-grafisch img
+{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.back
+{
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.portfolio-schets 
+{
+	padding-bottom: 500px;
+}
+.portfolio-schets img
+{
+    height: 100px;
+    width: 100px;
+}
+.portfolio-hobby
+{
+    padding-bottom: 300px;
+}
+.portfolio-hobby img
+{
+    height: 100px;
+    width: 100px;
+}
+.portfolio-fotografie 
+{ 
+    padding-bottom: 1250px;
+}
+.portfolio-fotografie img
+{
+    height: 100px;
+    width: 100px;
+}
+.portfolio a
+{
+    color: white;
+}
+#me
+{
+	width: 90%;
+	padding-bottom: 10px;
+}
+#form
+{
+    padding-bottom: 32px;
+}
+#naam,#email
+{
+    width: 50%;
+}
+#verstuur
+{
+    color: #1E2223;
+    font-size: 20px;
+    background-color: #67c6af;
+    margin-bottom: 13px;
+    margin-left: 15%;
+    padding: 1.5%;
+}
+#totaalI,#totaalH,#totaalP,#totaalJS,#totaalJ,#totaalJQ,#totaalF
+{
+    background-color: #fff000;
+    opacity: 0.4;
+    width: 30%;
+}
+#totaalH
+{
+    height: 24px;
+    position: absolute;
+    top: 271px;
+}
+#totaalP
+{
+    height: 24px;
+    position: absolute;
+    top: 321px;
+}
+#totaalI
+{
+    height: 24px;
+    position: absolute;
+    top: 371px;
+}
+#totaalJS
+{
+    height: 24px;
+    position: absolute;
+    top: 421px;
+}
+#totaalJ
+{
+    height: 24px;
+    position: absolute;
+    top: 471px;
+}
+#totaalJQ
+{
+    height: 24px;
+    position: absolute;
+    top: 521px;
+}
+#totaalF
+{
+    height: 24px;
+    position: absolute;
+    top: 571px;
+}
+#javas,#java,#jque,#flash
+{
+	background-color: #FFF000;
+	width: 8%;
+	height: 22px;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+#htcs
+{
+	background-color: #FFF000;
+	width: 20%;
+    height: 22px;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+#photos,#illu
+{
+	background-color: #FFF000;
+	width: 18%;
+    height: 22px;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+div.afb
+{
+   height:auto;
+   width:auto;
+   float:left;
+   text-align:center;
+}
+div.afb img
+{
+   display:inline;
+   padding: 2px;
+   margin:8px;
+}
+div.desc
+{
+   text-align:center;
+   font-weight:normal;
+   width:120px;
+}
+footer
+{
+	background-color: #67c6af;
+    position: fixed;
+    bottom: 0px;
+	padding-bottom: 30px;
+	width: 100%;
+}
+footer img
+{
+    padding-top: 5px;
+    height: 40px;
+    float: left;
+}
+footer p
+{
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+@media screen and (min-width: 600px)
+{
+	header
+	{
+		height: 100px;
+	}   
+	nav li
+	{
+        margin-top: 10px;
+        width: 100px;
+		float: left;
+	}
+	#content
+	{
+		clear: both;
+		font-size: 16px;
+		width: 98.4%;
+	}
+    #content p
+    {
+        line-height: 25px;
+    }
+	#content h1
+	{
+		font-weight: bold;
+	}
+    .portfolio  p
+    {
+        padding-top: 20px;
+    }
+    .portfolio-grafisch
+    {
+        padding-bottom: 450px;
+    }
+    .portfolio-schets
+    {
+        padding-bottom: 400px;
+    }
+    .portfolio-hobby
+    {
+        padding-bottom: 400px;
+    }
+    .portfolio-fotografie
+    {
+        padding-bottom: 500px;
+    }
+	.desc
+	{
+		font-size: 13px;
+	}
+    #totaalH
+    {
+        position: absolute;
+        top: 162px;
+    }
+    #totaalP
+    {
+        position: absolute;
+        top: 213px;
+    }
+    #totaalI
+    {
+        position: absolute;
+        top: 264px;
+    }
+    #totaalJS
+    {
+        position: absolute;
+        top: 315px;
+    }
+    #totaalJ
+    {
+        position: absolute;
+        top: 366px;
+    }
+    #totaalJQ
+    {
+        position: absolute;
+        top: 417px;
+    }
+    #totaalF
+    {
+        position: absolute;
+        top: 468px;
+    }
+    #geslacht,#naam,#email,#info,#uitleg
+    {
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+	footer img
+	{
+		padding-left: 200px;
+	}
+}
+
+@media screen and (min-width: 800px)
+{
+	header
+	{
+		height: 120px;
+	}
+	#content h1
+	{
+		font-size: 30px;
+        padding-bottom: 10px;
+	} 
+    .home h1
+    {
+        padding-top: 13px;
+        margin-top: 180px;
+    }
+	nav a:link,
+	nav a:visited,
+	nav a:hover,
+	nav a:active
+	{
+	font-size: 18px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	}
+	nav ul
+	{
+		float: right;
+	}
+	#content
+	{
+		clear: both;
+		width: 97.1%;
+        font-size: 18px;
+	}
+    #tekst
+    {
+        margin-right: 110px;
+    }
+    #totaalH
+    {
+        position: absolute;
+        top: 199px;
+    }
+    #totaalP
+    {
+        position: absolute;
+        top: 252px;
+    }
+    #totaalI
+    {
+        position: absolute;
+        top: 305px;
+    }
+    #totaalJS
+    {
+        position: absolute;
+        top: 358px;
+    }
+    #totaalJ
+    {
+        position: absolute;
+        top: 411px;
+    }
+    #totaalJQ
+    {
+        position: absolute;
+        top: 464px;
+    }
+    #totaalF
+    {
+        position: absolute;
+        top: 517px;
+    }
+    .homeFoto
+    {
+        width: 75%;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    #callToAction
+    {
+        margin-top: 25px;
+        margin-bottom: 42px;
+    }
+    #verstuur
+    {
+        margin-left: 0;
+    }
+    .foto
+    {
+        margin-bottom: 300px;
+    }
+    .portfolio
+    {
+        padding-bottom: 79.5px;
+    }
+	.cv
+	{
+		padding-bottom: 20px;
+	}
+	.portfolio-grafisch, .portfolio-schets, .portfolio-hobby
+    {
+        padding-bottom: 420px;
+    }
+    .portfolio-fotografie
+    {
+        padding-bottom: 400px;
+    }
+	.contact
+	{
+        padding-bottom: 95px;
+	}
+    #text,#bio,#uitleg
+    {
+        white-space: pre-line;
+    }
+    #bio
+    {
+        margin-top: 170px;
+    }
+	#me
+	{
+		width: 50%;
+	}
+	footer img
+	{
+		padding-left: 550px;
+	}
+	footer
+	{
+        height:50px;
+    }
+    footer p
+    {
+        margin-top: 1.1em;
+    }
+}
