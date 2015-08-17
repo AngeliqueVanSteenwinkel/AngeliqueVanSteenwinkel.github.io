@@ -1,12 +1,16 @@
 body
 {
 	font-family:'Times New Roman';
-    background-color: #328470;
-    color: white;
+    /*background-color: #328470;*/
+    /*background-color: #9AA3B4;*/
+    background-image: url(../images/patroon17.jpg);
+    color: darkslateblue;
 }
 header
 {
-	background-color: #67c6af;
+	/*background-color: #67c6af;*/
+    /*background-color: #56658D;*/
+    background-image: url(../images/patroon16.jpg);
 	width: 100%;
     height: 210px;
 }
@@ -15,7 +19,7 @@ header img
 	display: block;
 	height: 80px;
 	width: auto;
-	margin-left: 7px;
+	margin-left: 13px;
 	margin-right: 50px;
 	float: left;
 }
@@ -26,22 +30,25 @@ nav a:active
 {
 	text-decoration: none;
 	font-size: 18px;
-	color: #E2DFDF;
+	/*color: #328470;*/
+    /*color:#78807b;*/
+    color: #D7DDEA;
 	text-align: center;
 	display:block;
-	background-color: #328470;
-	margin-bottom: 2px;
+    margin-bottom: 2px;
     padding: 2px 4px;
 	clear:both;
     font-family: 'Lato', sans-serif;
 }
 nav a:hover
 {
-	background-color: #286c5b;
+    /*color: #286c5b;*/
+    color: #f3f3f3;
 }
 nav a:active
 {
-	background-color: #1f5346;
+	/*color: #1f5346;*/
+    color: #fff;
 }
 #content
 {
@@ -51,6 +58,8 @@ nav a:active
 	padding-top: 15px;
 	width: 97.2%;
 	font-size: 15px;
+    line-height: 25px;
+    margin-left: 6px;
 }
 #content h1
 {
@@ -58,6 +67,7 @@ nav a:active
 	color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    margin-left: 6px;
 }
 #form span
 {
@@ -65,7 +75,7 @@ nav a:active
 }
 #content p
 {
-    line-height: 30px;
+    line-height: 35px;
     padding-bottom: 2px;
 }
 #contactTekst p
@@ -80,6 +90,7 @@ nav a:active
 .homeFoto
 {
     width: 100%;
+    margin-left: 6px;
 }
 #callToAction a
 {
@@ -283,20 +294,29 @@ div.afb img
 {
    display:inline;
    padding: 2px;
-   margin:8px;
+   margin:6px;
 }
-div.desc
+div.desc,div.desce
 {
-   text-align:center;
-   font-weight:normal;
-   width:120px;
+    text-align:center;
+    font-weight:normal;
+    color: whitesmoke;
+    width:120px;
+}
+div.desce
+{
+    height: 150px;
+    padding-bottom: 5px
 }
 footer
 {
-	background-color: #67c6af;
+	/*background-color: #67c6af;*/
+    /*background-color: #56658D;*/
+    background-image: url(../images/patroon16.jpg);
     position: fixed;
     bottom: 0px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
+    padding-top: 40px;
 	width: 100%;
 }
 footer img
@@ -309,6 +329,7 @@ footer p
 {
     margin-top: 10px;
     font-family: 'Lato', sans-serif;
+    color: cadetblue;
 }
 
 @media screen and (min-width: 600px)
@@ -421,26 +442,28 @@ footer p
     .home h1
     {
         padding-top: 13px;
-        margin-top: 180px;
+        margin-top: 280px;
     }
 	nav a:link,
 	nav a:visited,
 	nav a:hover,
 	nav a:active
 	{
-	font-size: 18px;
-	padding-top: 10px;
+	font-size: 22px;
+	padding-top: 20px;
     padding-bottom: 10px;
 	}
 	nav ul
 	{
-		float: right;
+		/*float: right;*/
+        margin-left: 400px;
 	}
 	#content
 	{
 		clear: both;
 		width: 97.1%;
         font-size: 18px;
+        font-weight: 600;
 	}
     #tekst
     {
@@ -449,37 +472,37 @@ footer p
     #totaalH
     {
         position: absolute;
-        top: 199px;
+        top: 201px;
     }
     #totaalP
     {
         position: absolute;
-        top: 252px;
+        top: 262px;
     }
     #totaalI
     {
         position: absolute;
-        top: 305px;
+        top: 321px;
     }
     #totaalJS
     {
         position: absolute;
-        top: 358px;
+        top: 382px;
     }
     #totaalJ
     {
         position: absolute;
-        top: 411px;
+        top: 441px;
     }
     #totaalJQ
     {
         position: absolute;
-        top: 464px;
+        top: 502px;
     }
     #totaalF
     {
         position: absolute;
-        top: 517px;
+        top: 561px;
     }
     .homeFoto
     {
@@ -507,14 +530,15 @@ footer p
 	.cv
 	{
 		padding-bottom: 20px;
-	}
+    }
 	.portfolio-grafisch, .portfolio-schets, .portfolio-hobby
     {
-        padding-bottom: 420px;
+        padding-bottom: 500px;
+        margin-bottom: 30px;
     }
     .portfolio-fotografie
     {
-        padding-bottom: 400px;
+        padding-bottom: 450px;
     }
 	.contact
 	{
@@ -531,14 +555,26 @@ footer p
 	#me
 	{
 		width: 50%;
+        padding-left: 25%;
 	}
+    div.desc
+    {
+    width:150px;
+    font-size: 15px;
+    }
+    div.desce
+    {
+    font-size: 15px;
+    height: 150px;
+    padding-bottom: 5px;
+    }
 	footer img
 	{
-		padding-left: 550px;
+		padding-left: 520px;
 	}
 	footer
 	{
-        height:50px;
+        height:40px;
     }
     footer p
     {
