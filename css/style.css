@@ -95,13 +95,16 @@ nav a:active
 #callToAction a
 {
     text-decoration: none;
-    color: #1E2223;
+    /*color: #1E2223;*/
+    color: whitesmoke;
     font-size: 25px;
-    background-color: #67c6af;
+    /*background-color: #67c6af;*/
+    background-color: #9AA3B4;
     margin-bottom: 13px;
     margin-left: 15%;
     padding: 1%;
-    border: 3px solid #4ebda2;
+    /*border: 3px solid #4ebda2;*/
+    border:  3px solid #56658D;
 }
 #callToAction
 {
@@ -198,9 +201,11 @@ nav a:active
 }
 #verstuur
 {
-    color: #1E2223;
+    /*color: #1E2223;*/
+    color: whitesmoke;
     font-size: 20px;
-    background-color: #67c6af;
+    /*background-color: #67c6af;*/
+    background-color: #56658D;
     margin-bottom: 13px;
     margin-left: 15%;
     padding: 1.5%;
