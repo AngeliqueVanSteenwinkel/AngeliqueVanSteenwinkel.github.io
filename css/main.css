@@ -1,0 +1,189 @@
+body
+{
+    font-family: "Book antiqua", "Arial";
+    background-color: darkblue;
+}
+h1, h2,h3
+{
+    text-align: center;
+    color: darkblue;
+}
+#titel,#titel1,#titel2
+{
+    animation: veranderKleur 4s;
+    animation-fill-mode: forwards;
+    -webkit-animation: veranderKleur 4s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: veranderKleur 4s;
+    -moz-animation-fill-mode: forwards;
+    -o-animation: veranderKleur 4s;
+    -o-animation-fill-mode: forwards;
+}
+.text
+{
+    margin-top: 5%;
+}
+.text h1
+{
+    font-size: 50px;
+}
+.text h2
+{
+    margin-top: 0.5%;
+    font-size: 30px;
+}
+.text h3
+{
+    margin-top: 1%;
+    font-size: 20px;
+}
+button
+{
+    margin-top: 2%;
+    margin-left: 25%;
+    background-color: darkblue;
+    border: none;
+    font-size: 15px;
+    animation: veranderKleur1 4s;
+    animation-fill-mode: forwards;
+    -webkit-animation: veranderKleur1 4s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: veranderKleur1 4s;
+    -moz-animation-fill-mode: forwards;
+    -o-animation: veranderKleur1 4s;
+    -o-animation-fill-mode: forwards;
+}
+a
+{
+    color: darkblue;
+    text-decoration: none;
+}
+#sprite1
+{
+    overflow: hidden;
+    width: 265px;
+    height: 252px;
+    background-image: url(../images/bloem1.png);
+    top:150px;
+    left: 55px;
+    position: fixed;
+    animation: verwelk 1s steps(5) ;
+    -webkit-animation: verwelk 1s steps(5) ;
+    -moz-animation: verwelk 1s steps(5) ;
+    -o-animation: verwelk 1s steps(5) ;
+}
+@keyframes verwelk {
+  0% {
+  background-position:0 0;
+  }
+  100%{
+  background-position:-1562px 0;
+  }
+}
+@-webkit-keyframes verwelk {
+  0% {
+  background-position:0 0;
+  }
+  100%{
+  background-position:-1562px 0;
+  }
+}
+@-moz-keyframes verwelk {
+  0% {
+  background-position:0 0;
+  }
+  100%{
+  background-position:-1562px 0;
+  }
+}
+@-o-keyframes verwelk {
+  0% {
+  background-position:0 0;
+  }
+  100%{
+  background-position:-1562px 0;
+  }
+}
+@keyframes veranderKleur{
+0% {color: darkblue;}
+100% {color: #32d8d6;}
+}
+@-webkit-keyframes veranderKleur{
+0% {color: darkblue;}
+100% {color: #32d8d6;}
+}
+@-moz-keyframes veranderKleur{
+0% {color: darkblue;}
+100% {color: #32d8d6;}
+}
+@-o-keyframes veranderKleur{
+0% {color: darkblue;}
+100% {color: #32d8d6;}
+}
+@keyframes veranderKleur1{
+0% {background-color: darkblue;}
+100% {background-color: #32d8d6;}
+}
+@-webkit-keyframes veranderKleur1{
+0% {background-color: darkblue;}
+100% {background-color: #32d8d6;}
+}
+@-moz-keyframes veranderKleur1{
+0% {background-color: darkblue;}
+100% {background-color: #32d8d6;}
+}
+@-o-keyframes veranderKleur1{
+0% {background-color: darkblue;}
+100% {background-color: #32d8d6;}
+}
+@media screen and (min-width: 600px)
+{
+    #sprite1
+{
+    left: 920px;
+}
+    #sprite2
+{
+    overflow: hidden;
+    width: 265px;
+    height: 252px;
+    background-image: url(../images/bloem2.png);
+    left: 15px;
+    position: fixed;
+    animation: verwelk 1s steps(5) ;
+    -webkit-animation: verwelk 1s steps(5) ;
+    -moz-animation: verwelk 1s steps(5) ;
+    -o-animation: verwelk 1s steps(5) ;
+}
+    #sprite3
+{
+    overflow: hidden;
+    width: 264px;
+    height: 252px;
+    background-image: url(../images/bloem3.png);
+    margin-left: 42%;
+    margin-top: 10%;
+    animation: verwelk 1s steps(5) ;
+    -webkit-animation: verwelk 1s steps(5) ;
+    -moz-animation: verwelk 1s steps(5) ;
+    -o-animation: verwelk 1s steps(5) ;;
+}
+button
+{
+    margin-top: 1%;
+    margin-left: 38%;
+    font-size: 17px;
+}
+}
+@media screen and (min-width: 800px)
+{
+    #sprite2
+{
+    left: 50px;
+}
+    button
+{
+    margin-top: 1%;
+    margin-left: 43%;
+}
+}
